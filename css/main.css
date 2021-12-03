@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 87vh;
 }
 
 /* smell */
@@ -103,6 +103,15 @@ body {
   border-radius: 50%;
   margin-right: 20px;
 }
+.boxes .box-one img {
+ border: 2px solid #a378ee;
+}
+.boxes .box-two img {
+ border: 2px solid #838584;
+}
+.boxes .box-four img {
+  border: 2px solid #6542a6;
+}
 .boxes h2 {
   font-size: 1.32rem;
   font-weight: 500;
@@ -157,5 +166,23 @@ body {
   }
   .box-five {
     grid-area: five;
+  }
+}
+
+@media (max-width:768px) {
+  .box-one {
+    max-width: 350px;
+  }
+  .box-two {
+    max-width: 350px;
+  }
+  .box-three {
+    max-width: 350px;
+  }
+  .box-four {
+   max-width: 350px;
+  }
+  .box-five {
+    max-width: 350px;
   }
 }
